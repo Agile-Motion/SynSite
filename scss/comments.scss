@@ -1,0 +1,152 @@
+@import "variables";
+
+.comments {
+  background-color: $primary-color;
+  padding: 20px 10px;
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .avatar {
+    background-color: $passive-color;
+    border: 1px solid $white;
+    display: block;
+    float: left;
+    height: 100px;
+    margin: 5px 10px 5px 0;
+    width: 100px;
+  }
+}
+
+.depth-5 {
+  .avatar {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+#reply-title {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#respond {
+  margin: 0 auto;
+  max-width: $max-width;
+
+  label {
+    display: block;
+  }
+}
+
+#comment {
+  height: 200px;
+  min-height: 100px;
+  resize: vertical;
+  width: 100%;
+}
+
+.logged-in-as {
+  float: right;
+  margin: 0;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+#submit {
+  background-color: $primary-color;
+  border: 3px solid $white;
+  color: white;
+  cursor: pointer;
+  font-size: 150%;
+  padding: 6px 15px;
+
+  &:hover {
+    background-color: $primary-color-lighten;
+  }
+}
+
+.comments-list {
+  margin: 20px auto;
+  max-width: $max-width;
+
+  .children {
+    margin-left: 20px;
+  }
+}
+
+.comment {
+  border-left: 3px solid $white;
+  margin: 20px 0;
+  padding: 3px 0 3px 20px;
+
+  .fn {
+    color: $passive-color;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  .comment {
+    margin: 15px 0;
+
+    .comment {
+      margin: 10px 0;
+      border-left-width: 2px;
+
+      .comment .comment {
+        border-left-width: 1px;
+      }
+    }
+  }
+}
+
+.comment-body {
+  min-height: 90px;
+  margin-bottom: 20px;
+
+  &:after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+.depth-5 .comment-body {
+  margin-bottom: 0;
+}
+
+.reply {
+  float: left;
+}
+
+
+.paginate-comments {
+  clear: both;
+  margin: 10px auto;
+  max-width: $max-width;
+  text-align: center;
+
+  a {
+    color: $white;
+    display: inline-block;
+    padding: 2px 7px;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background-color: $secondary-color;
+      text-decoration: none;
+    }
+  }
+}

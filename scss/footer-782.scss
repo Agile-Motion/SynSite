@@ -1,0 +1,42 @@
+@import "variables";
+
+@media screen and (max-width: 782px) {
+  #content {
+    min-height: 200px;
+  }
+
+  .footer {
+    padding: 10px;
+
+    .widget {
+      float: none !important;
+      margin-bottom: 15px;
+    }
+
+    .widget + .widget ~ .widget {
+      .widgettitle {
+        color: $primary-color-darken;
+      }
+
+      .textwidget {
+        color: $passive-color;
+      }
+    }
+
+    .widgettitle {
+      color: $primary-color;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .textwidget {
+      font-size: 14px;
+
+      a {
+        color: inherit;
+        font-style: italic;
+        text-decoration: none;
+      }
+    }
+  }
+}

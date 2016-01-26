@@ -1,0 +1,97 @@
+@import "scss/variables";
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 10px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 10px;
+}
+
+.wp-caption {
+  max-width: 100%;
+}
+
+.gallery-caption,
+.wp-caption-text {
+  margin: 0 0 5px 0;
+}
+
+iframe,
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 15px 0 0 0;
+  clear: both;
+}
+
+a {
+  color: $primary-color-darken;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+blockquote {
+  color: $primary-color-darken;
+  margin: 10px 0 0 10px;
+  padding: 0 20px 10px 20px;
+  position: relative;
+
+  &:before {
+    color: $primary-color-lighten;
+    content: "\201c";
+    display: block;
+    float: left;
+    font-size: 3em;
+    left: 0;
+    line-height: 1;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+  }
+
+  &:after {
+    bottom: 0;
+    color: $primary-color-lighten;
+    content: "\201d";
+    display: block;
+    font-size: 3em;
+    line-height: 1;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+  }
+}
+
+cite {
+  float: right;
+  font-style: italic;
+}
+
+h1,
+h2 {
+  clear: both;
+}
+
+body {
+  color: black;
+  text-decoration: none;
+  font-family: "Frutiger CE 45 Light", sans-serif;
+  max-width: $max-width;
+  padding: 15px 20px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}

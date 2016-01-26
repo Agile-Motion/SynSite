@@ -1,0 +1,188 @@
+@import "variables";
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 10px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 10px;
+}
+
+.wp-caption {
+  max-width: 100%;
+}
+
+.gallery-caption,
+.wp-caption-text {
+  margin: 0 0 5px 0;
+}
+
+.hentry {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  &.tag-chat {
+
+  }
+}
+
+a.hentry:hover {
+  background-color: $primary-color;
+}
+
+.thumbnail,
+.entry-title {
+  text-align: center;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.entry-excerpt,
+.entry-content {
+  font-family: "Frutiger CE 45 Light", sans-serif;
+  margin: 0 auto;
+  max-width: $max-width;
+  padding: 15px 20px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  p {
+    margin: 15px 0 0 0;
+    clear: both;
+  }
+
+  a {
+    color: $primary-color-darken;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  blockquote {
+    color: $primary-color-darken;
+    margin: 10px 0 0 10px;
+    padding: 0 20px 10px 20px;
+    position: relative;
+
+    &:before {
+      color: $primary-color-lighten;
+      content: "\201c";
+      display: block;
+      float: left;
+      font-size: 3em;
+      left: 0;
+      line-height: 1;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+    }
+
+    &:after {
+      bottom: 0;
+      color: $primary-color-lighten;
+      content: "\201d";
+      display: block;
+      font-size: 3em;
+      line-height: 1;
+      opacity: 0.6;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  cite {
+    float: right;
+    font-style: italic;
+  }
+
+  h1,
+  h2 {
+    clear: both;
+  }
+}
+
+.post-error {
+  .search-field {
+    display: block;
+    font-size: 1.3em;
+    margin: 20px auto;
+    padding: 11px 20px;
+    width: 100%;
+  }
+
+  .search-icon {
+    font-size: 2.7em;
+  }
+}
+
+.categories {
+  clear: both;
+  margin: 10px auto;
+  max-width: $max-width;
+  text-align: center;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    background-color: $primary-color;
+    color: $secondary-color;
+    margin: 5px;
+    padding: 4px 7px 2px 7px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-break: keep-all;
+
+    &:hover {
+      background-color: $primary-color-lighten;
+    }
+  }
+}
+
+.paginate {
+  clear: both;
+  margin: 10px auto;
+  max-width: $max-width;
+  padding: 0 10px;
+  text-align: center;
+
+  a {
+    color: $primary-color-darken;
+    display: inline-block;
+    padding: 2px 7px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $primary-color;
+      color: black;
+    }
+  }
+}
+
+.paginate-previous {
+  float: left;
+}
+
+.paginate-next {
+  float: right;
+}

@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-01-26 13:38+0100\n"
+"PO-Revision-Date: 2016-01-26 13:42+0100\n"
+"Last-Translator: Pierre PÉRONNET <pierre.peronnet@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr__;est_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: scripts\n"
+"X-Poedit-SearchPathExcluded-1: scss\n"
+"X-Poedit-SearchPathExcluded-2: languages\n"
+
+#: 404.php:3
+msgid "Nothing found"
+msgstr "Rien de trouvé"
+
+#: 404.php:7
+msgid "Sorry, nothing here. Try the search feature."
+msgstr "Désolé, rien ici. Essayez la fonction de recherche."
+
+#: archive.php:6
+msgid "No posts"
+msgstr "Pas d’article."
+
+#: archive.php:9
+msgid "No posts here, sorry. Maybe you can use the search feature ?"
+msgstr ""
+
+#: functions.php:24
+msgid "Header"
+msgstr "Entête"
+
+#: functions.php:25
+msgid "Footer"
+msgstr "Pied de page"
+
+#: functions.php:52
+msgid "Footer Sidebar"
+msgstr "Barre latérale de pied de page"
+
+#: functions.php:54
+msgid "Widgets in this area will be shown on all posts and pages, in the footer."
+msgstr ""
+
+#: functions.php:80
+msgid "Find us"
+msgstr "Retrouvez-nous"
+
+#: index.php:16
+msgid "Previous"
+msgstr "Précédent"
+
+#: index.php:19
+msgid "Next"
+msgstr "Suivant"
+
+#: searchform.php:3 searchform.php:7
+msgid "Search for:"
+msgstr "Rechercher:"
+
+#: searchform.php:5
+msgid "Search ..."
+msgstr "Recherche…"

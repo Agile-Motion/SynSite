@@ -1,0 +1,42 @@
+@import "variables";
+
+.search-form {
+  position: relative;
+}
+
+.search-field {
+  border: 1px solid $primary-color-darken;
+  font-size: 100%;
+  -webkit-transition: background-color $animation-duration, border-color $animation-duration;
+  transition: background-color $animation-duration, border-color $animation-duration;
+  padding: 3px 7px;
+
+  &:focus + .search-icon {
+    color: $primary-color;
+  }
+
+  &:not(:focus) {
+    background-color: $passive-color;
+    border-color: $passive-color;
+  }
+}
+
+.search-icon {
+  color: $primary-color-darken;
+  cursor: pointer;
+  font-size: 180%;
+  font-weight: bold;
+  height: auto;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  width: auto;
+
+  &:not(:hover) {
+    transition: color $animation-duration;
+  }
+
+  &:hover {
+    color: $primary-color;
+  }
+}

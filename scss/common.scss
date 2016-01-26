@@ -1,0 +1,45 @@
+body {
+  font: 100%/1.618 sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, header {
+  font-family: "gotham book", sans-serif;
+  margin: 0;
+}
+
+.menu,
+.sub-menu,
+.sidebar,
+.children,
+.comments-list,
+.post-categories {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+img,
+input,
+iframe,
+textarea {
+  max-width: 100%;
+}
+
+input {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

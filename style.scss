@@ -1,0 +1,55 @@
+/*
+Theme Name: SynSite
+Theme URI: https://github.com/Agile-Motion/SynSite
+Author: Pierre PÉRONNET
+Author URI: http://coffeepot.fr
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, responsive-layout, custom-background, custom-menu, editor-style, translation-ready, threaded-comments, post-formats, brown, white
+Text Domain: synsite
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import "scss/variables";
+@import "scss/common";
+@import "scss/header";
+@import "scss/header-782";
+@import "scss/header-600";
+@import "scss/post";
+@import "scss/post-782";
+@import "scss/post-600";
+@import "scss/comments";
+@import "scss/comments-782";
+@import "scss/footer";
+@import "scss/footer-782";
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}

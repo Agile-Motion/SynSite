@@ -1,0 +1,12 @@
+$primary-color: #B4936F;
+$primary-color-lighten: lighten($primary-color, 10%);
+$primary-color-darken: darken($primary-color, 10%);
+$secondary-color: #141414;
+$passive-color: #E5E5E5;
+
+$grey: #AAA;
+$white: #FFF;
+
+$animation-duration: 250ms;
+
+$max-width: 900px;

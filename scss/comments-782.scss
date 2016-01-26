@@ -1,0 +1,15 @@
+@import "variables";
+
+@media screen and (max-width: 782px) {
+  .comments-list {
+    margin-bottom: 10px;
+
+    .children {
+      margin-left: 10px;
+    }
+  }
+
+  .comment-content {
+    padding-left: 10px;
+  }
+}

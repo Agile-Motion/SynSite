@@ -1,0 +1,17 @@
+@import "variables";
+
+@media screen and (max-width: 400px) {
+  .alignleft,
+  .alignright {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wp-caption,
+  .wp-caption img {
+    width: 100% !important;
+    height: auto;
+  }
+}

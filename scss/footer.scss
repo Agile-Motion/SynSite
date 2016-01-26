@@ -1,0 +1,58 @@
+@import "variables";
+
+#content {
+  min-height: 400px;
+}
+
+.footer {
+  background-color: $secondary-color;
+  clear: both;
+  color: $passive-color;
+  padding: 20px;
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .widget {
+    margin-bottom: 20px;
+  }
+
+  .widget:nth-child(2n) {
+    float: right;
+  }
+
+  .widget:nth-child(2n+1) {
+    float: left;
+    clear: both;
+  }
+
+  .widget + .widget ~ .widget {
+    .widgettitle {
+      color: $primary-color-darken;
+    }
+
+    .textwidget {
+      color: $passive-color;
+    }
+  }
+
+  .widgettitle {
+    color: $primary-color;
+    font-size: 16px;
+    margin: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .textwidget {
+    font-size: 14px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+}
